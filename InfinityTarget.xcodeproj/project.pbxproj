@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9039475E232BAA8900D0446D /* InfinityTarget2-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9039475D232BAA8900D0446D /* InfinityTarget2-Info.plist */; };
+		90394760232BAAA600D0446D /* InfinityTarget3-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9039475F232BAAA600D0446D /* InfinityTarget3-Info.plist */; };
+		90394762232BAAB300D0446D /* InfinityTarget4-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90394761232BAAB300D0446D /* InfinityTarget4-Info.plist */; };
+		90394764232BAABF00D0446D /* InfinityTarget5-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90394763232BAABF00D0446D /* InfinityTarget5-Info.plist */; };
 		9099ADAD232A1ED40071064A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9099ADAC232A1ED40071064A /* AppDelegate.swift */; };
 		9099ADB4232A1ED50071064A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9099ADB3232A1ED50071064A /* Assets.xcassets */; };
 		9099AE29232A52490071064A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9099ADAC232A1ED40071064A /* AppDelegate.swift */; };
@@ -91,19 +95,18 @@
 
 /* Begin PBXFileReference section */
 		90394748232BA69F00D0446D /* CoreModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CoreModule.xcodeproj; path = Core/CoreModule.xcodeproj; sourceTree = "<group>"; };
+		9039475D232BAA8900D0446D /* InfinityTarget2-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InfinityTarget2-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9039475F232BAAA600D0446D /* InfinityTarget3-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InfinityTarget3-Info.plist"; sourceTree = SOURCE_ROOT; };
+		90394761232BAAB300D0446D /* InfinityTarget4-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InfinityTarget4-Info.plist"; sourceTree = SOURCE_ROOT; };
+		90394763232BAABF00D0446D /* InfinityTarget5-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InfinityTarget5-Info.plist"; sourceTree = SOURCE_ROOT; };
 		9099ADA9232A1ED40071064A /* NF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9099ADAC232A1ED40071064A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9099ADB3232A1ED50071064A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9099ADB8232A1ED50071064A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9099AE32232A52490071064A /* OE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OE.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9099AE33232A52490071064A /* InfinityTarget copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "InfinityTarget copy-Info.plist"; path = "/Users/afm/Documents/InfinityTarget/InfinityTarget copy-Info.plist"; sourceTree = "<absolute>"; };
 		9099AE40232A524F0071064A /* PF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PF.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9099AE41232A524F0071064A /* InfinityTarget copy 2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "InfinityTarget copy 2-Info.plist"; path = "/Users/afm/Documents/InfinityTarget/InfinityTarget copy 2-Info.plist"; sourceTree = "<absolute>"; };
 		9099AE4E232A52510071064A /* PB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PB.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9099AE4F232A52510071064A /* InfinityTarget copy 3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "InfinityTarget copy 3-Info.plist"; path = "/Users/afm/Documents/InfinityTarget/InfinityTarget copy 3-Info.plist"; sourceTree = "<absolute>"; };
 		9099AE5C232A52520071064A /* OS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9099AE5D232A52520071064A /* InfinityTarget copy 4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "InfinityTarget copy 4-Info.plist"; path = "/Users/afm/Documents/InfinityTarget/InfinityTarget copy 4-Info.plist"; sourceTree = "<absolute>"; };
-		9099AE6B232A52540071064A /* InfinityTarget copy 5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "InfinityTarget copy 5-Info.plist"; path = "/Users/afm/Documents/InfinityTarget/InfinityTarget copy 5-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,17 +157,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		90394752232BA90200D0446D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90394763232BAABF00D0446D /* InfinityTarget5-Info.plist */,
+				90394761232BAAB300D0446D /* InfinityTarget4-Info.plist */,
+				9039475D232BAA8900D0446D /* InfinityTarget2-Info.plist */,
+				9099ADB8232A1ED50071064A /* Info.plist */,
+				9039475F232BAAA600D0446D /* InfinityTarget3-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		9099ADA0232A1ED40071064A = {
 			isa = PBXGroup;
 			children = (
 				90394748232BA69F00D0446D /* CoreModule.xcodeproj */,
 				9099ADAB232A1ED40071064A /* InfinityTarget */,
 				9099ADAA232A1ED40071064A /* Products */,
-				9099AE33232A52490071064A /* InfinityTarget copy-Info.plist */,
-				9099AE41232A524F0071064A /* InfinityTarget copy 2-Info.plist */,
-				9099AE4F232A52510071064A /* InfinityTarget copy 3-Info.plist */,
-				9099AE5D232A52520071064A /* InfinityTarget copy 4-Info.plist */,
-				9099AE6B232A52540071064A /* InfinityTarget copy 5-Info.plist */,
+				90394752232BA90200D0446D /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,7 +196,6 @@
 			children = (
 				9099ADAC232A1ED40071064A /* AppDelegate.swift */,
 				9099ADB3232A1ED50071064A /* Assets.xcassets */,
-				9099ADB8232A1ED50071064A /* Info.plist */,
 			);
 			path = InfinityTarget;
 			sourceTree = "<group>";
@@ -356,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9039475E232BAA8900D0446D /* InfinityTarget2-Info.plist in Resources */,
 				9099AE2D232A52490071064A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9099AE3B232A524F0071064A /* Assets.xcassets in Resources */,
+				90394760232BAAA600D0446D /* InfinityTarget3-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90394762232BAAB300D0446D /* InfinityTarget4-Info.plist in Resources */,
 				9099AE49232A52510071064A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9099AE57232A52520071064A /* Assets.xcassets in Resources */,
+				90394764232BAABF00D0446D /* InfinityTarget5-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,7 +567,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-NF";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-NF";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = InfinityTarget/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -572,7 +586,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-NF";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-NF";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = InfinityTarget/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -629,7 +643,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-PF";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-PF";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "InfinityTarget copy 2-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/InfinityTarget3-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -648,7 +662,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-PF";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-PF";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "InfinityTarget copy 2-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/InfinityTarget3-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -667,7 +681,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-PB";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-PB";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "InfinityTarget copy 3-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/InfinityTarget4-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -686,7 +700,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-PB";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-PB";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "InfinityTarget copy 3-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/InfinityTarget4-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -705,7 +719,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-OS";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-OS";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "InfinityTarget copy 4-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/InfinityTarget5-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -724,7 +738,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-OS";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-OS";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "InfinityTarget copy 4-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/InfinityTarget5-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
